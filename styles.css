@@ -1,0 +1,150 @@
+body{
+
+background-color: #fff;
+
+}
+
+#background{
+
+    
+}
+
+#main {
+    background-color: gray;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 200px;
+    overflow: hidden;
+    margin-top: 200px;
+    
+}
+
+
+#character {
+
+
+width: 60px;
+height: 60px;
+position: relative;
+top: 120px;
+left: 10px;
+animation-play-state: paused;
+
+
+}
+.cat{
+    max-width: 100%;
+    position: relative; 
+    top: 0px
+}
+.dog {
+    max-width: 100%;
+    position: relative; 
+    top: -20px
+    width: 100px
+}
+
+.character-anim {
+    animation-duration: 0.8s;
+    animation-name: jump;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+
+}
+
+#ground { 
+
+    width: 2000px;
+    height: 20px;
+    background-color: green;
+    position: relative;
+    right:  0px;
+    top: 85px;
+    animation-name: tress;
+    animation-duration: 20s;
+    
+}
+
+#trees {
+
+    width: 80px;
+    height: 35px;
+    
+    position: relative;
+    top: 85px;
+    left: 600px;
+    animation-name: tree;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#h1 {
+
+position: relative;
+font-family: monospace;
+text-align: center;
+bottom: 100px;
+visibility: hidden;
+}
+
+#h3 {
+
+    position: relative;
+    font-family: monospace;
+    text-align: right;
+    margin-right: 10px;
+    bottom: 120px;
+    
+    
+    }
+
+#button {
+
+    position: relative;
+    font-family: monospace;
+    bottom: 100px;
+    visibility: hidden;
+    left: 265px;
+    cursor: pointer;
+    
+
+}
+
+#background{
+
+    margin: 0;
+    padding: 0;
+    transform: scale(1.5);
+}
+
+@keyframes jump{ 
+
+    0% {
+    top: 120px;
+    }
+
+    25% {
+        top: 40px;
+        }
+        50% {
+            top: 40px;
+            }
+            100% {
+                top: 120px;
+                }
+}
+
+@keyframes tree{ 
+
+    0% {
+    left: 600px;
+    }
+
+    100% {
+       left: -100px;
+        }
+
+}

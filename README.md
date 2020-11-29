@@ -1,1 +1,3 @@
-# My-first-javaScript-game-2020-August
+# trex1
+# First-javaScript-game-2020-august
+# First-javaScript-game-2020-august
